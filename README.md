@@ -1,7 +1,8 @@
-# Passo a Passo para Configuração do Projeto
+# E-commerce
 
-## 1º Passo - Criação das Tabelas no PostgreSQL
+## Como configurar o projeto
 
+1º Passo - Criação das Tabelas no PostgreSQL
 Execute os seguintes comandos SQL para criar as tabelas necessárias no seu banco de dados PostgreSQL:
 
 ```sql
