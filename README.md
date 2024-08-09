@@ -1,7 +1,10 @@
-Passo a Passo para Configuração do Projeto
-1º Passo - Criação das Tabelas no PostgreSQL
+# Passo a Passo para Configuração do Projeto
+
+## 1º Passo - Criação das Tabelas no PostgreSQL
+
 Execute os seguintes comandos SQL para criar as tabelas necessárias no seu banco de dados PostgreSQL:
 
+```sql
 -- Criação da tabela de usuários
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
@@ -35,16 +38,17 @@ CREATE TABLE pedidos_finalizados (
 );
 
 2º Passo - Configuração e Execução do Servidor
- Instale as dependências do projeto:
-  npm install
- Inicie o servidor:
-  node index.js
+Instale as dependências do projeto:
+- npm install
+Inicie o servidor:
+- node index.js
 
 3º Passo - Execução do Front-End Flutter Web
 Execute o aplicativo Flutter:
- flutter run
- 
-- Com o servidor em execução e as tabelas criadas, siga estes passos no aplicativo:
+- flutter run
+
+**Com o servidor em execução e as tabelas criadas, siga estes passos no aplicativo:**
+
 - Crie uma conta no app.
 - Faça login com suas credenciais.
 - Nota: "Multicoisas" e "Temos Tudo" são nomes genéricos para os fornecedores.
